@@ -21,3 +21,7 @@ exports.userlist = function(db){
 		});
 	};
 };
+
+exports.newuser = function(req, res){
+	res.render('newuser', { title: 'Add New User'});
+};
